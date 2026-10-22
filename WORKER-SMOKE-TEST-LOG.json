@@ -1,0 +1,169 @@
+{
+  "testedAt": "2026-10-22 (Australia/Perth)",
+  "notice": "Local route smoke tests against a mocked Worker and sample approved records; not a test of a deployed Cloudflare Worker, real D1, real R2, Google Calendar visibility, actual Turnstile verification, or browser rendering.",
+  "total": 26,
+  "passed": 26,
+  "failed": 0,
+  "results": [
+    {
+      "name": "health configured",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "name": "health includes configuration status but no secret values",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "name": "photos list returns approved-only record shape",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "name": "calendar proxy returns only requested known public feeds",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "name": "calendar proxy rejects unknown calendar keys",
+      "status": 400,
+      "contentType": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "name": "calendar proxy reports private/unavailable calendars clearly",
+      "status": 503,
+      "contentType": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "name": "reject invalid photo section",
+      "status": 400,
+      "contentType": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "name": "unapproved/unknown media is not public",
+      "status": 404,
+      "contentType": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "name": "approved media route works for approved record",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "passed": true
+    },
+    {
+      "name": "news listing",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "name": "news slug not found",
+      "status": 404,
+      "contentType": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "name": "news RSS",
+      "status": 200,
+      "contentType": "application/rss+xml; charset=utf-8",
+      "passed": true
+    },
+    {
+      "name": "photo RSS joeys",
+      "status": 200,
+      "contentType": "application/rss+xml; charset=utf-8",
+      "passed": true
+    },
+    {
+      "name": "photo RSS cubs",
+      "status": 200,
+      "contentType": "application/rss+xml; charset=utf-8",
+      "passed": true
+    },
+    {
+      "name": "photo RSS scouts",
+      "status": 200,
+      "contentType": "application/rss+xml; charset=utf-8",
+      "passed": true
+    },
+    {
+      "name": "photo RSS venturers",
+      "status": 200,
+      "contentType": "application/rss+xml; charset=utf-8",
+      "passed": true
+    },
+    {
+      "name": "photo RSS all",
+      "status": 200,
+      "contentType": "application/rss+xml; charset=utf-8",
+      "passed": true
+    },
+    {
+      "name": "submission fails closed without Turnstile",
+      "status": 503,
+      "contentType": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "name": "login rejects invalid password",
+      "status": 401,
+      "contentType": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "name": "login rejects malformed JSON",
+      "status": 400,
+      "contentType": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "name": "admin queue requires session",
+      "status": 401,
+      "contentType": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "name": "private preview requires session",
+      "status": 401,
+      "contentType": "text/plain; charset=utf-8",
+      "passed": true
+    },
+    {
+      "name": "article publish requires session",
+      "status": 401,
+      "contentType": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "name": "allowed origin receives CORS header",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "passed": true
+    },
+    {
+      "name": "reject unknown origin",
+      "status": 403,
+      "contentType": "text/plain;charset=UTF-8",
+      "passed": true
+    },
+    {
+      "name": "health reports missing bindings",
+      "status": 503,
+      "contentType": "application/json; charset=utf-8",
+      "passed": true
+    }
+  ],
+  "notes": [
+    "Sample media and article text intentionally include XML-sensitive characters to exercise escaping.",
+    "RSS response bodies were saved outside the deliverable archive for XML parsing."
+  ]
+}
