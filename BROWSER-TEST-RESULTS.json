@@ -1,0 +1,502 @@
+{
+  "caseCount": 12,
+  "allNoHorizontalOverflow": true,
+  "allNoPageErrors": true,
+  "allHistoryViewsHaveTimeline": true,
+  "fullScreenMenuChecks": [
+    {
+      "open": true,
+      "expanded": "true",
+      "text": "Close",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 780
+      },
+      "vw": 320,
+      "vh": 780,
+      "bodyOverflow": "hidden",
+      "closeVisible": true
+    },
+    {
+      "open": true,
+      "expanded": "true",
+      "text": "Close",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 800
+      },
+      "vw": 360,
+      "vh": 800,
+      "bodyOverflow": "hidden",
+      "closeVisible": true
+    },
+    {
+      "open": true,
+      "expanded": "true",
+      "text": "Close",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 375,
+        "h": 812
+      },
+      "vw": 375,
+      "vh": 812,
+      "bodyOverflow": "hidden",
+      "closeVisible": true
+    },
+    {
+      "open": true,
+      "expanded": "true",
+      "text": "Close",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 390,
+        "h": 844
+      },
+      "vw": 390,
+      "vh": 844,
+      "bodyOverflow": "hidden",
+      "closeVisible": true,
+      "shiftTabCyclesToJoin": true,
+      "tabCyclesToHome": true
+    },
+    {
+      "open": true,
+      "expanded": "true",
+      "text": "Close",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 430,
+        "h": 932
+      },
+      "vw": 430,
+      "vh": 932,
+      "bodyOverflow": "hidden",
+      "closeVisible": true
+    },
+    {
+      "open": true,
+      "expanded": "true",
+      "text": "Close",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 768,
+        "h": 1024
+      },
+      "vw": 768,
+      "vh": 1024,
+      "bodyOverflow": "hidden",
+      "closeVisible": true
+    }
+  ],
+  "allMenusEscapeClose": true,
+  "desktopDropdown": {
+    "background": "rgb(255, 255, 255)",
+    "opacity": "1",
+    "visibility": "visible",
+    "zIndex": "3004"
+  },
+  "results": [
+    {
+      "route": "home",
+      "viewport": [
+        320,
+        780
+      ],
+      "width": 320,
+      "docWidth": 320,
+      "bodyWidth": 320,
+      "title": "Scouts in Boulder",
+      "logoLoaded": true,
+      "historyIntro": false,
+      "timelineItems": 0,
+      "headerRule": {
+        "height": "3px",
+        "clip": "none",
+        "bg": "none"
+      },
+      "heroAfterDisplay": "none",
+      "footerRule": {
+        "height": "7px",
+        "clip": "none",
+        "bg": "none"
+      },
+      "menu": {
+        "open": true,
+        "expanded": "true",
+        "text": "Close",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+        },
+        "vw": 320,
+        "vh": 780,
+        "bodyOverflow": "hidden",
+        "closeVisible": true
+      },
+      "escapeClosed": true,
+      "errors": []
+    },
+    {
+      "route": "home",
+      "viewport": [
+        360,
+        800
+      ],
+      "width": 360,
+      "docWidth": 360,
+      "bodyWidth": 360,
+      "title": "Scouts in Boulder",
+      "logoLoaded": true,
+      "historyIntro": false,
+      "timelineItems": 0,
+      "headerRule": {
+        "height": "3px",
+        "clip": "none",
+        "bg": "none"
+      },
+      "heroAfterDisplay": "none",
+      "footerRule": {
+        "height": "7px",
+        "clip": "none",
+        "bg": "none"
+      },
+      "menu": {
+        "open": true,
+        "expanded": "true",
+        "text": "Close",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 360,
+          "h": 800
+        },
+        "vw": 360,
+        "vh": 800,
+        "bodyOverflow": "hidden",
+        "closeVisible": true
+      },
+      "escapeClosed": true,
+      "errors": []
+    },
+    {
+      "route": "home",
+      "viewport": [
+        375,
+        812
+      ],
+      "width": 375,
+      "docWidth": 375,
+      "bodyWidth": 375,
+      "title": "Scouts in Boulder",
+      "logoLoaded": true,
+      "historyIntro": false,
+      "timelineItems": 0,
+      "headerRule": {
+        "height": "3px",
+        "clip": "none",
+        "bg": "none"
+      },
+      "heroAfterDisplay": "none",
+      "footerRule": {
+        "height": "7px",
+        "clip": "none",
+        "bg": "none"
+      },
+      "menu": {
+        "open": true,
+        "expanded": "true",
+        "text": "Close",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 375,
+          "h": 812
+        },
+        "vw": 375,
+        "vh": 812,
+        "bodyOverflow": "hidden",
+        "closeVisible": true
+      },
+      "escapeClosed": true,
+      "errors": []
+    },
+    {
+      "route": "home",
+      "viewport": [
+        390,
+        844
+      ],
+      "width": 390,
+      "docWidth": 390,
+      "bodyWidth": 390,
+      "title": "Scouts in Boulder",
+      "logoLoaded": true,
+      "historyIntro": false,
+      "timelineItems": 0,
+      "headerRule": {
+        "height": "3px",
+        "clip": "none",
+        "bg": "none"
+      },
+      "heroAfterDisplay": "none",
+      "footerRule": {
+        "height": "7px",
+        "clip": "none",
+        "bg": "none"
+      },
+      "menu": {
+        "open": true,
+        "expanded": "true",
+        "text": "Close",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 844
+        },
+        "vw": 390,
+        "vh": 844,
+        "bodyOverflow": "hidden",
+        "closeVisible": true,
+        "shiftTabCyclesToJoin": true,
+        "tabCyclesToHome": true
+      },
+      "escapeClosed": true,
+      "errors": []
+    },
+    {
+      "route": "home",
+      "viewport": [
+        430,
+        932
+      ],
+      "width": 430,
+      "docWidth": 430,
+      "bodyWidth": 430,
+      "title": "Scouts in Boulder",
+      "logoLoaded": true,
+      "historyIntro": false,
+      "timelineItems": 0,
+      "headerRule": {
+        "height": "3px",
+        "clip": "none",
+        "bg": "none"
+      },
+      "heroAfterDisplay": "none",
+      "footerRule": {
+        "height": "7px",
+        "clip": "none",
+        "bg": "none"
+      },
+      "menu": {
+        "open": true,
+        "expanded": "true",
+        "text": "Close",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 430,
+          "h": 932
+        },
+        "vw": 430,
+        "vh": 932,
+        "bodyOverflow": "hidden",
+        "closeVisible": true
+      },
+      "escapeClosed": true,
+      "errors": []
+    },
+    {
+      "route": "home",
+      "viewport": [
+        768,
+        1024
+      ],
+      "width": 768,
+      "docWidth": 768,
+      "bodyWidth": 768,
+      "title": "Scouts in Boulder",
+      "logoLoaded": true,
+      "historyIntro": false,
+      "timelineItems": 0,
+      "headerRule": {
+        "height": "3px",
+        "clip": "none",
+        "bg": "none"
+      },
+      "heroAfterDisplay": "none",
+      "footerRule": {
+        "height": "7px",
+        "clip": "none",
+        "bg": "none"
+      },
+      "menu": {
+        "open": true,
+        "expanded": "true",
+        "text": "Close",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 768,
+          "h": 1024
+        },
+        "vw": 768,
+        "vh": 1024,
+        "bodyOverflow": "hidden",
+        "closeVisible": true
+      },
+      "escapeClosed": true,
+      "errors": []
+    },
+    {
+      "route": "home",
+      "viewport": [
+        1024,
+        900
+      ],
+      "width": 1024,
+      "docWidth": 1024,
+      "bodyWidth": 1024,
+      "title": "Scouts in Boulder",
+      "logoLoaded": true,
+      "historyIntro": false,
+      "timelineItems": 0,
+      "headerRule": {
+        "height": "3px",
+        "clip": "none",
+        "bg": "none"
+      },
+      "heroAfterDisplay": "none",
+      "footerRule": {
+        "height": "7px",
+        "clip": "none",
+        "bg": "none"
+      },
+      "errors": []
+    },
+    {
+      "route": "home",
+      "viewport": [
+        1280,
+        900
+      ],
+      "width": 1280,
+      "docWidth": 1280,
+      "bodyWidth": 1280,
+      "title": "Scouts in Boulder",
+      "logoLoaded": true,
+      "historyIntro": false,
+      "timelineItems": 0,
+      "headerRule": {
+        "height": "3px",
+        "clip": "none",
+        "bg": "none"
+      },
+      "heroAfterDisplay": "none",
+      "footerRule": {
+        "height": "7px",
+        "clip": "none",
+        "bg": "none"
+      },
+      "errors": []
+    },
+    {
+      "route": "about",
+      "viewport": [
+        320,
+        780
+      ],
+      "width": 320,
+      "docWidth": 320,
+      "bodyWidth": 320,
+      "title": "Our history",
+      "logoLoaded": true,
+      "historyIntro": true,
+      "timelineItems": 12,
+      "headerRule": {
+        "height": "3px",
+        "clip": "none",
+        "bg": "none"
+      },
+      "heroAfterDisplay": "block",
+      "footerRule": {
+        "height": "7px",
+        "clip": "none",
+        "bg": "none"
+      },
+      "errors": []
+    },
+    {
+      "route": "about",
+      "viewport": [
+        390,
+        844
+      ],
+      "width": 390,
+      "docWidth": 390,
+      "bodyWidth": 390,
+      "title": "Our history",
+      "logoLoaded": true,
+      "historyIntro": true,
+      "timelineItems": 12,
+      "headerRule": {
+        "height": "3px",
+        "clip": "none",
+        "bg": "none"
+      },
+      "heroAfterDisplay": "block",
+      "footerRule": {
+        "height": "7px",
+        "clip": "none",
+        "bg": "none"
+      },
+      "errors": []
+    },
+    {
+      "route": "about",
+      "viewport": [
+        1280,
+        900
+      ],
+      "width": 1280,
+      "docWidth": 1280,
+      "bodyWidth": 1280,
+      "title": "Our history",
+      "logoLoaded": true,
+      "historyIntro": true,
+      "timelineItems": 12,
+      "headerRule": {
+        "height": "3px",
+        "clip": "none",
+        "bg": "none"
+      },
+      "heroAfterDisplay": "block",
+      "footerRule": {
+        "height": "7px",
+        "clip": "none",
+        "bg": "none"
+      },
+      "errors": []
+    },
+    {
+      "check": "desktop-dropdown",
+      "state": {
+        "background": "rgb(255, 255, 255)",
+        "opacity": "1",
+        "visibility": "visible",
+        "zIndex": "3004"
+      }
+    }
+  ]
+}

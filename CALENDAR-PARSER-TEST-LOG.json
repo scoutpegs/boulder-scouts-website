@@ -1,0 +1,94 @@
+[
+  {
+    "name": "weekly Wednesday recurrence",
+    "ok": true,
+    "got": [
+      "2026-10-28",
+      "2026-11-04",
+      "2026-11-11"
+    ],
+    "expected": [
+      "2026-10-28",
+      "2026-11-04",
+      "2026-11-11"
+    ]
+  },
+  {
+    "name": "section source key",
+    "ok": true,
+    "got": [
+      "joeys",
+      "joeys",
+      "joeys"
+    ],
+    "expected": [
+      "joeys",
+      "joeys",
+      "joeys"
+    ]
+  },
+  {
+    "name": "meeting local wall time",
+    "ok": true,
+    "got": "17:30",
+    "expected": "17:30"
+  },
+  {
+    "name": "event end time",
+    "ok": true,
+    "got": "18:30",
+    "expected": "18:30"
+  },
+  {
+    "name": "all-day event",
+    "ok": true,
+    "got": [
+      [
+        "2026-11-11",
+        ""
+      ]
+    ],
+    "expected": [
+      [
+        "2026-11-11",
+        ""
+      ]
+    ]
+  },
+  {
+    "name": "cancelled event omitted",
+    "ok": true,
+    "got": 0,
+    "expected": 0
+  },
+  {
+    "name": "exception date omitted",
+    "ok": true,
+    "got": [
+      "2026-10-28",
+      "2026-11-11"
+    ],
+    "expected": [
+      "2026-10-28",
+      "2026-11-11"
+    ]
+  },
+  {
+    "name": "UTC event converted to Perth wall time",
+    "ok": true,
+    "got": [
+      [
+        "2026-10-27",
+        "17:30",
+        "18:30"
+      ]
+    ],
+    "expected": [
+      [
+        "2026-10-27",
+        "17:30",
+        "18:30"
+      ]
+    ]
+  }
+]

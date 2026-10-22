@@ -1,0 +1,22 @@
+name = "boulder-scouts-api"
+main = "worker.js"
+compatibility_date = "2026-10-22"
+workers_dev = true
+
+[vars]
+SITE_URL = "https://boulderscouts.com"
+# Replace with the exact https://<worker>.<account-subdomain>.workers.dev origin after the first deployment.
+API_PUBLIC_URL = ""
+ALLOWED_ORIGINS = "https://boulderscouts.com,https://www.boulderscouts.com,https://scoutpegs.github.io"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "boulder-scouts"
+database_id = "REPLACE_WITH_REAL_D1_DATABASE_ID"
+
+[[r2_buckets]]
+binding = "MEDIA_BUCKET"
+bucket_name = "boulder-scouts-photos"
+
+[triggers]
+crons = ["0 18 * * *"]
