@@ -82,11 +82,9 @@
   }
   function addPlaceholderText(container,photo,section){
     container.replaceChildren();container.className='carousel-missing-slot';container.hidden=false;
-    const kicker=document.createElement('span');kicker.className='photo-slot-kicker';kicker.textContent='Photo needed';
-    const title=document.createElement('strong');title.textContent=photo.title||sectionLabel(section)+' photo';
-    const instruction=document.createElement('p');instruction.className='carousel-photo-path-note';instruction.textContent='Save an approved image as:';
-    const path=document.createElement('code');path.textContent=photo.url;
-    container.append(kicker,title,instruction,path);
+    const title=document.createElement('strong');title.textContent='Photos coming soon';
+    const note=document.createElement('p');note.textContent='Approved group photos will appear here once families have given permission.';
+    container.append(title,note);
   }
   function renderAutoCarousel(target,section,slides){
     if(!target)return;disposeCarousel(target);
@@ -145,7 +143,7 @@
     const wrapper=document.createElement('section');wrapper.className='photo-album';
     const heading=document.createElement('div');heading.className='photo-album-heading';const h2=document.createElement('h2');h2.textContent=title;const p=document.createElement('p');p.className='album-intro';p.textContent=intro;heading.append(h2,p);wrapper.appendChild(heading);target.replaceChildren(wrapper);
     renderAutoCarousel(wrapper,section,[...photos,...slotsAsSlides(slots)]);
-    const api=String(cfg&&cfg.apiBase||'').replace(/\/$/,'');if(api){const row=document.createElement('p');row.className='photo-rss-row';const a=document.createElement('a');a.className='photo-rss-link';a.href=api+'/api/feed/photos/'+(section==='all'?'all':section)+'.xml';a.textContent='Subscribe to '+(section==='all'?'group':sectionLabel(section))+' photos RSS ↗';row.appendChild(a);wrapper.appendChild(row)}
+    const api=String(cfg&&cfg.apiBase||'').replace(/\/$/,'');if(api){const row=document.createElement('p');row.className='photo-rss-row';const a=document.createElement('a');a.className='photo-rss-link';a.href=api+'/api/feed/photos/'+(section==='all'?'all':section)+'.xml';a.textContent='Subscribe to '+(section==='all'?'group':sectionLabel(section))+' photos RSS';row.appendChild(a);wrapper.appendChild(row)}
   }
   async function requestRemotePhotos(cfg,section){
     const base=String(cfg&&cfg.apiBase||'').trim().replace(/\/+$/,'');if(!/^https:\/\//i.test(base))return[];
