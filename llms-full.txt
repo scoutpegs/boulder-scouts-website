@@ -34,6 +34,7 @@ For state-wide Scouting activities, use the official Scouts WA event listing at 
 - Training: https://boulderscouts.com/training/
 - ScoutMap guide: https://boulderscouts.com/scoutmap/
 - News: https://boulderscouts.com/news/
+- What is Scouting (Promise, Law, Scout Method): https://boulderscouts.com/scouting/
 - Site map (every page with a description): https://boulderscouts.com/sitemap/ and https://boulderscouts.com/sitemap.xml
 - Privacy and photo permissions: https://boulderscouts.com/privacy/
 - Website terms: https://boulderscouts.com/terms/
