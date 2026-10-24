@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='utf-8'?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://boulderscouts.com/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <image:image>
+      <image:loc>https://boulderscouts.com/social-cover-home.jpg</image:loc>
+      <image:title>Boulder Scout Group in Boulder, Western Australia</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://boulderscouts.com/about/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <image:image>
+      <image:loc>https://boulderscouts.com/social-cover-about.jpg</image:loc>
+      <image:title>About Boulder Scout Group</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://boulderscouts.com/joeys/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <image:image>
+      <image:loc>https://boulderscouts.com/social-cover-joeys.jpg</image:loc>
+      <image:title>Joey Scouts in Boulder, Western Australia</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://boulderscouts.com/cubs/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <image:image>
+      <image:loc>https://boulderscouts.com/social-cover-cubs.jpg</image:loc>
+      <image:title>Cub Scouts in Boulder, Western Australia</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://boulderscouts.com/scouts/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <image:image>
+      <image:loc>https://boulderscouts.com/social-cover-scouts.jpg</image:loc>
+      <image:title>Scouts in Boulder, Western Australia</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://boulderscouts.com/venturers/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <image:image>
+      <image:loc>https://boulderscouts.com/social-cover-venturers.jpg</image:loc>
+      <image:title>Venturer Scouts in Boulder, Western Australia</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://boulderscouts.com/calendar/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <image:image>
+      <image:loc>https://boulderscouts.com/social-cover-calendar.jpg</image:loc>
+      <image:title>Boulder Scout Group calendar</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://boulderscouts.com/events/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <image:image>
+      <image:loc>https://boulderscouts.com/social-cover-events.jpg</image:loc>
+      <image:title>Scouts WA events</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://boulderscouts.com/news/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <image:image>
+      <image:loc>https://boulderscouts.com/social-cover-news.jpg</image:loc>
+      <image:title>Boulder Scout Group news</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://boulderscouts.com/join/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <image:image>
+      <image:loc>https://boulderscouts.com/social-cover-join.jpg</image:loc>
+      <image:title>Join Boulder Scouts</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://boulderscouts.com/contact/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <image:image>
+      <image:loc>https://boulderscouts.com/social-cover-contact.jpg</image:loc>
+      <image:title>Contact Boulder Scout Group</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://boulderscouts.com/resources/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <image:image>
+      <image:loc>https://boulderscouts.com/social-cover-resources.jpg</image:loc>
+      <image:title>Scouting resources</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://boulderscouts.com/training/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <image:image>
+      <image:loc>https://boulderscouts.com/social-cover-default.jpg</image:loc>
+      <image:title>Scouting training</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://boulderscouts.com/scoutmap/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <image:image>
+      <image:loc>https://boulderscouts.com/social-cover-default.jpg</image:loc>
+      <image:title>ScoutMap guide</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://boulderscouts.com/privacy/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <image:image>
+      <image:loc>https://boulderscouts.com/social-cover-default.jpg</image:loc>
+      <image:title>Boulder Scouts privacy information</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://boulderscouts.com/terms/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <image:image>
+      <image:loc>https://boulderscouts.com/social-cover-default.jpg</image:loc>
+      <image:title>Boulder Scouts website terms</image:title>
+    </image:image>
+  </url>
+</urlset>
