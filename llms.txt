@@ -32,6 +32,7 @@
 - [Training](/training/): training and official learning links.
 - [ScoutMap guide](/scoutmap/): the official event and registration service.
 - [News](/news/): approved group updates when stories are published.
+- [What is Scouting](/scouting/): the Scout Promise and Law, Scout Method and Areas of Personal Growth from Scouts Australia.
 - [Site map](/sitemap/): every page with a short description, plus [sitemap.xml](/sitemap.xml).
 - [Privacy](/privacy/) and [website terms](/terms/).
 

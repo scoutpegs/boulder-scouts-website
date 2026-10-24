@@ -46,6 +46,17 @@
     </image:image>
   </url>
   <url>
+    <loc>https://boulderscouts.com/scouting/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://boulderscouts.com/social-cover-about.jpg</image:loc>
+      <image:title>What is Scouting | Boulder Scout Group</image:title>
+      <image:caption>The Scout Promise and Law, the Scout Method and the four Areas of Personal Growth, as set by Scouts Australia.</image:caption>
+    </image:image>
+  </url>
+  <url>
     <loc>https://boulderscouts.com/joeys/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>monthly</changefreq>

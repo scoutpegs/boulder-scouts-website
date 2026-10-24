@@ -1009,3 +1009,13 @@ html:not(.js-enabled) header .hb{flex-wrap:wrap;height:auto;padding-top:10px;pad
 html:not(.js-enabled) nav{position:static;display:flex;flex-wrap:wrap;gap:2px 4px;width:100%;transform:none;opacity:1;visibility:visible;padding:0;background:transparent;border:0;box-shadow:none;overflow:visible}
 html:not(.js-enabled) nav>a{min-height:40px;padding:8px 10px}
 html:not(.js-enabled) nav>a{flex:0 0 auto;width:auto;border-bottom:0;font-size:14px;padding:8px 9px;min-height:36px}
+
+/* Hand-finished touches: badge-style cards, printed-style buttons, section-colour rules */
+a.card.sc{position:relative;border:2px solid var(--c);border-radius:6px;background:#fff;box-shadow:none}
+a.card.sc::after{content:"";position:absolute;inset:5px;border:1.5px dashed var(--c);border-radius:3px;opacity:.55;pointer-events:none}
+.btn{box-shadow:3px 3px 0 rgba(0,0,0,.22);transition:transform .08s,box-shadow .08s}
+.btn:hover{transform:translate(1px,1px);box-shadow:2px 2px 0 rgba(0,0,0,.22)}.btn:active{transform:translate(3px,3px);box-shadow:none}
+.sec h2{position:relative;padding-bottom:.35em}.sec h2::after{content:"";position:absolute;left:0;bottom:0;width:44px;height:4px;background:var(--gold)}
+.scouting-page .law-list{list-style:none;padding:0;margin:.4rem 0 1rem}.scouting-page .law-list li{padding:.55rem 0;border-bottom:1px solid var(--line)}
+.scouting-page p{max-width:70ch}.area-grid{margin:1rem 0 1.4rem}.area{text-align:left;border-top:4px solid var(--gold);padding-top:.8rem}.area img{width:72px;height:72px;object-fit:contain}.area h3{margin:.5rem 0 .2rem}.area p{margin:0;font-size:.95rem}
+@media(prefers-reduced-motion:reduce){.btn{transition:none}}
